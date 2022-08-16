@@ -59,6 +59,6 @@ app.get('/',function(req,res){
 
 
 
-app.listen(5000,()=>{
+app.listen(process.env.port||5000,()=>{
     console.log("Server Ready on 5000");
 });
