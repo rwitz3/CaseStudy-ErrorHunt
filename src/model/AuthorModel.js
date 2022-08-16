@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/libraryapp-casestudy1');
+mongoose.connect('mongodb+srv://Rwitz6:Q1QehrxLjXzhRibS@cluster0.zvtir7v.mongodb.net/Library');
 const Schema = mongoose.Schema;
 
 
